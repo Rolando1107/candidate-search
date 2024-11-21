@@ -13,6 +13,7 @@ The Candidate Search App is a web application designed to simplify the process o
 - [Tests](#tests)
 
 ![image](https://github.com/user-attachments/assets/f79acb48-5fb4-41b8-b47d-83021613ee57)
+![image](https://github.com/user-attachments/assets/90e0bffb-1aa4-443a-acb1-e512cc9d11d5)
 
 ## Installation
 Since this application is a deployed project, no installation is required.
