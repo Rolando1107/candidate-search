@@ -1,33 +1,30 @@
-# React + TypeScript + Vite
+# Candidate Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Currently, two official plugins are available:
+## Description
+The Candidate Search App is a web application designed to simplify the process of finding potential candidates for job positions using the GitHub API. This app allows users to search for GitHub users based on specific criteria, review their profiles, and make decisions to either accept or reject them as potential candidates. Accepted candidates are then added to a table for further review and comparison.
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
 
-## Expanding the ESLint configuration
+## Installation
+Since this application is a deployed project, no installation is required.
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Usage
+To use this application, visit the URL, and the API will start calling as soon as you load the page. From there, you can decide whether to accept or decline a user. If you choose to accept a user, you can visit the "Saved Candidates" section on the navbar to view more details and compare the candidates collectively.
 
-* Configure the top-level `parserOptions` property as follows:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## License
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please create an issue or submit a pull request. For major changes, it is advisable to open an issue first to discuss what you would like to change. Thank you!
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Tests
+There are no test instructions available as of September 10th, 2024. This is subject to change as development progresses.
+
